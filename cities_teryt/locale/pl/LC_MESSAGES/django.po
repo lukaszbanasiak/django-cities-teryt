@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-27 23:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: admin.py:29 admin.py:41 models.py:85 models.py:111
+msgid "Type"
+msgstr "Rodzaj"
+
+#: models.py:21
+msgid "Name"
+msgstr "Nazwa"
+
+#: models.py:23
+msgid "TERYT date"
+msgstr "Data TERYT"
+
+#: models.py:24
+msgid "Created"
+msgstr "Stworzony"
+
+#: models.py:25
+msgid "Modified"
+msgstr "Zmodyfikowany"
+
+#: models.py:48
+msgid "province"
+msgstr "województwo"
+
+#: models.py:49
+msgid "provinces"
+msgstr "województwa"
+
+#: models.py:63 models.py:83 models.py:108 models.py:156 models.py:159
+#: models.py:168
+msgid "Province"
+msgstr "Województwo"
+
+#: models.py:66
+msgid "county"
+msgstr "powiat"
+
+#: models.py:67
+msgid "counties"
+msgstr "powiaty"
+
+#: models.py:84 models.py:109 models.py:157 models.py:160 models.py:169
+msgid "County"
+msgstr "Powiat"
+
+#: models.py:88
+msgid "municipality"
+msgstr "gmina"
+
+#: models.py:89
+msgid "municipalities"
+msgstr "gminy"
+
+#: models.py:105 models.py:135
+msgid "city"
+msgstr "miasto"
+
+#: models.py:106 models.py:152
+msgid "village"
+msgstr "wieś"
+
+#: models.py:110 models.py:158 models.py:161 models.py:170
+msgid "Municipality"
+msgstr "Gmina"
+
+#: models.py:114
+msgid "place"
+msgstr "miejscowość"
+
+#: models.py:115
+msgid "places"
+msgstr "miejscowości"
+
+#: models.py:136
+msgid "cities"
+msgstr "miasta"
+
+#: models.py:153
+msgid "villages"
+msgstr "wsie"
+
+#: models.py:171
+msgid "City"
+msgstr "Miasto"
+
+#: models.py:174
+msgid "district"
+msgstr "dzielnica"
+
+#: models.py:175
+msgid "districts"
+msgstr "dzielnice"

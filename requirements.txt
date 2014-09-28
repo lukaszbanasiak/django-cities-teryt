@@ -1,0 +1,3 @@
+django-autoslug
+lxml
+Unidecode
