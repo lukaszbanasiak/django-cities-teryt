@@ -29,7 +29,7 @@ Install django-cities-teryt
 
 Or dev version
 
-..code:: bash
+.. code:: bash
 
     pip install -e git+git@github.com:lukaszbanasiak/django-cities-teryt.git#egg=cities_teryt
 
@@ -55,6 +55,7 @@ Configuration
 2. Setup in your ``settings.py`` full path to above directory
 
 .. code:: python
+
     # Default directory is `import` dir in `django-cities-teryt` app directory
     CITIES_TERYT_IMPORT_DIR = '/path/to/dir'
 
