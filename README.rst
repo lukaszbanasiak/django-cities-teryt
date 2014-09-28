@@ -25,7 +25,7 @@ Install django-cities-teryt
 
 .. code:: bash
 
-    $ pip install django-cities-teryt
+    pip install django-cities-teryt
 
 Or dev version
 
