@@ -7,7 +7,7 @@ from lxml import etree
 from optparse import make_option
 from os import path, mkdir
 
-from ...models import Province, County, Municipality, City, Village, District
+from ...models import Province, County, Municipality, Place, City, Village, District
 from ...settings import *
 
 IMPORT_OPT = ('province', 'county', 'municipality', 'city', 'village', 'district')
@@ -118,7 +118,7 @@ class Command(BaseCommand):
                 'municipality_id': '%s%s%s' % (item[0].text, item[1].text, item[2].text),
                 'type': item[4].text,
             }
-            self._update_or_create(City, **values)
+            self._update_or_create(Place, **values)
 
     def import_village(self):
         self.logger.info('Importing village data')
@@ -133,7 +133,7 @@ class Command(BaseCommand):
                 'municipality_id': '%s%s%s' % (item[0].text, item[1].text, item[2].text),
                 'type': item[4].text,
             }
-            self._update_or_create(Village, **values)
+            self._update_or_create(Place, **values)
 
     def import_district(self):
         self.logger.info('Importing district data')
