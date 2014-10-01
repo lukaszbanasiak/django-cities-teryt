@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-from django.core.management.base import BaseCommand
-
 import logging
-from datetime import datetime
-from lxml import etree
 from optparse import make_option
 from os import path, mkdir
 
+from django.core.management.base import BaseCommand
+from lxml import etree
+
+from datetime import datetime
 from ...models import Province, County, Municipality, Place, City, Village, District
 from ...settings import *
 
@@ -57,6 +57,7 @@ class Command(BaseCommand):
                 func()
 
     def _update_or_create(self, model, **kwargs):
+        self.logger.debug('{model}: {values}'.format(model=model.__name__, values=kwargs))
         try:
             obj = model.objects.get(id=kwargs['id'], name=kwargs['name'])
             for key, value in kwargs.iteritems():
