@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-from setuptools import setup, find_packages
-import shutil
-import sys
 import os
 import os.path
+
+from setuptools import setup, find_packages
+
 
 
 # Utility function to read the README file.
@@ -16,7 +16,7 @@ def read(fname):
 
 setup(
     name='django-cities-teryt',
-    version='1.0.0',
+    version='1.0.1',
     description='Polish region and city data for Django.',
     author='Łukasz Banasiak',
     author_email='lukas.banasiak@gmail.com',
